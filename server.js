@@ -57,7 +57,9 @@ function initial() {
 }
 
 var corsOptions = {
-  origin: ["http://localhost:8081"],
+  // origin: ["http://localhost:8081"],
+  origin: ["https://zingy-beijinho-8cc064.netlify.app"],
+  
   credentials: true
 };
 
